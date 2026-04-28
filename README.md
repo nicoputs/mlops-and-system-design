@@ -1,4 +1,4 @@
-# MLOps and System Design – Session 1
+# MLOps and System Design - Nicolás Santis Rojas
 
 This repository contains the work developed for Session 1 of the MLOps and System Design course.
 
