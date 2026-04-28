@@ -9,12 +9,6 @@ Practice version control using Git and GitHub, including:
 - Making commits
 - Opening and merging pull requests
 
-## Project Structure
-├── requirements.txt
-└── session_1/
-└── main.py
-
-
 ## Description
 
 The `hello_world` function was updated to accept a name parameter and print a personalized message.
