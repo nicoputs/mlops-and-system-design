@@ -1,27 +1,68 @@
-# MLOps and System Design - Nicolás Santis Rojas
+# MLOps and System Design — Nicolás Santis Rojas
 
-This repository contains the work developed for Session 1 of the MLOps and System Design course.
+This repository contains the exercises and activities developed during the MLOps and System Design course.
+
+---
+
+# Repository Structure
+
+```text
+session_1/
+session_2/
+README.md
+requirements.txt
+```
+
+---
+
+# Session 1 — Git & GitHub Fundamentals
 
 ## Objective
-Practice version control using Git and GitHub, including:
-- Creating repositories
-- Managing branches :)
+
+Practice the basic workflow of version control using Git and GitHub.
+
+## Activities
+
+- Creating a GitHub repository
+- Working with branches
 - Making commits
-- Opening and merging pull requests
+- Pushing changes to GitHub
+- Understanding pull requests and merge workflows
 
-## Description
+## Technologies Used
 
-The `hello_world` function was updated to accept a name parameter and print a personalized message.
-
-## Technologies
-- Python
 - Git
 - GitHub
+- Python
 
-## Version Control Workflow
+---
 
-This project follows a feature-branch workflow:
+# Session 2 — ML Pipeline & MLflow
 
-- Development is done in separate feature branches
-- Changes are integrated into the main branch via Pull Requests
-- Once merged, feature branches are removed to keep the repository clean and organized
+## Objective
+
+Build a simple Machine Learning workflow for customer churn prediction and track experiments using MLflow.
+
+## Activities
+
+- Exploratory Data Analysis (EDA)
+- Data preprocessing
+- Feature engineering
+- Training Machine Learning models
+- Evaluating model performance
+- Tracking experiments with MLflow
+
+## Models Used
+
+- Decision Tree Classifier
+- Random Forest Classifier
+
+## Technologies Used
+
+- Python
+- Pandas
+- Scikit-learn
+- MLflow
+- Jupyter Notebook
+
+---
