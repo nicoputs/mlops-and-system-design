@@ -9,6 +9,7 @@ This repository contains the exercises and activities developed during the MLOps
 ```text
 session_1/
 session_2/
+session_3/
 README.md
 requirements.txt
 ```
@@ -64,5 +65,52 @@ Build a simple Machine Learning workflow for customer churn prediction and track
 - Scikit-learn
 - MLflow
 - Jupyter Notebook
+
+## Evidence
+
+The `session_2/mlflow/` folder contains screenshots of the MLflow experiments and model metrics.
+
+---
+
+# Session 3 — Model Deployment & Inference
+
+## Objective
+
+Implement a basic model deployment workflow using a model trained and tracked in MLflow. This session focuses on loading an existing MLflow model and using it for both batch inference and online inference.
+
+## Activities
+
+- Reusing MLflow experiments from Session 2
+- Loading a trained model from MLflow using its model URI
+- Preparing validation data for inference
+- Applying the same preprocessing logic used during training
+- Running batch inference on a validation dataset
+- Serving the model locally with MLflow
+- Sending online inference requests to the local model endpoint
+- Validating the model response through a successful API request
+
+## Files
+
+- `ejercicio 3.ipynb`: Deployment and inference notebook
+- `ejercicio 3 test.csv`: Dataset used for model preparation
+- `ejercicio 3 val.csv`: Validation dataset used for inference testing
+
+## Inference Methods
+
+- Batch inference using `mlflow.pyfunc.load_model()`
+- Online inference using a local MLflow model server and HTTP requests
+
+## Technologies Used
+
+- Python
+- Pandas
+- Scikit-learn
+- MLflow
+- Requests
+- Jupyter Notebook
+
+## Result
+
+The online inference endpoint successfully returned a prediction with status code `200`, confirming that the model was served locally and was able to respond to inference requests.
 
 ---
