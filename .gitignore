@@ -222,3 +222,8 @@ mlruns/
 mlartifacts/
 **/mlruns/
 **/mlartifacts/
+
+mlflow.db
+**/mlflow.db
+encoder.pkl
+**/encoder.pkl
