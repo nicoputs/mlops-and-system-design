@@ -227,3 +227,8 @@ mlflow.db
 **/mlflow.db
 encoder.pkl
 **/encoder.pkl
+*.pkl
+.DS_Store
+mlflow.db
+mlruns/
+mlartifacts/
