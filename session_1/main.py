@@ -4,6 +4,5 @@ def hello_world(name: str):
         "and I'm learning about version control!"
     )
 
-
 if __name__ == "__main__":
     hello_world(name="Nicolas Puts")
